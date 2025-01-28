@@ -3,7 +3,7 @@ main {
 }
 
 aside {
-    width: 20em;
+    width: 10em;
     margin: 1rem;
     border: 1px solid whitesmoke rgba(0, 0, 0, 0.42); */  /
     padding: 1rem;
@@ -29,8 +29,8 @@ height: auto;
 p {padding: 0;}
 
 footer {
-margin-top: 10px;
-border-top: 10px solid #00000088;
+margin-top: 5px;
+border-top: 5px solid #00000088;
 text-align: center; 
 }
 
