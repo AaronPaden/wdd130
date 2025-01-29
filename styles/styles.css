@@ -6,14 +6,14 @@ aside {
     width: 100%;
     margin: .0001rem;
     border: .0001rem solid rgba(0, 0, 0, 0.42);
-    padding: .0001rem;
+    padding: 0rem;
     background-color: #eee ;
     color: #333;
     text-align: center;
 }
    
 aside img {
-    width: 260px;
+    width: 200px;
     height: auto;
 }
 
@@ -52,9 +52,9 @@ nav a{ color: rgb(150, 180, 160)
     width: px;
     height: auto;
     border: 1px solidblack
-    padding 1px
+    padding 0px
     box-shadow 0 0 10 px gray
 }
 
-p {padding: .95px;
+p {padding: 0px;
 }
