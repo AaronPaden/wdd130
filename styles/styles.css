@@ -4,57 +4,55 @@ main {
 
 aside {
     width: 100%;
-    margin: .0001rem;
-    border: .0001rem solid rgba(0, 0, 0, 0.42);
-    padding: 0rem;
-    background-color: #eee ;
+    margin: 0;
+    border: 0.1rem solid rgba(0, 0, 0, 0.42);
+    padding: 0;
+    background-color: #eee;
     color: #333;
     text-align: center;
 }
-   
+
 aside img {
     width: 200px;
     height: auto;
 }
 
-
-
 main img {
-width: 147px;
-height: auto;
-float: left;
-clip-path: circle(40%);
-shape-outside: circle(45%);
+    width: 147px;
+    height: auto;
+    float: left;
+    clip-path: circle(40%);
+    shape-outside: circle(45%);
 }
 
-p {padding: 0;}
+p {
+    padding: 0;
+}
 
 footer {
-margin-top: 1px;
-border-top: 1px solid #00000088;
-text-align: center; 
+    margin-top: 1px;
+    border-top: 1px solid #00000088;
+    text-align: center;
 }
 
 nav { 
     background-color: rgb(139, 107, 0);
-padding: 25px;
+    padding: 25px;
 }
 
-nav a{ color: rgb(150, 180, 160)
-    display block;
-     } 
+nav a { 
+    color: rgb(150, 180, 160);
+    display: block;
+} 
 
-    h1{
-        color: rgb(207, 205, 179);
-    }
+h1 {
+    color: rgb(207, 205, 179);
+}
 
-    img {
-    width: px;
+img {
+    width: auto;
     height: auto;
-    border: 1px solidblack
-    padding 0px
-    box-shadow 0 0 10 px gray
-}
-
-p {padding: 0px;
+    border: 1px solid black;
+    padding: 0px;
+    box-shadow: 0 0 10px gray;
 }
