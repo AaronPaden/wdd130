@@ -3,35 +3,35 @@ main {
 }
 
 aside {
-    width: 75em;
-    margin: 1rem;
-    border: 1rem solid rgba(0, 0, 0, 0.42);
-    padding: 1rem;
+    width: 100%;
+    margin: .01rem;
+    border: .1rem solid rgba(0, 0, 0, 0.42);
+    padding: .01rem;
     background-color: #eee ;
     color: #333;
     text-align: center;
 }
    
 aside img {
-    width: 150px;
+    width: 260px;
     height: auto;
 }
 
 
 
 main img {
-width: 125px;
+width: 150px;
 height: auto;
 float: left;
 clip-path: circle(40%);
 shape-outside: circle(45%);
 }
 
-p {padding: 1;}
+p {padding: 2;}
 
 footer {
 margin-top: 1px;
-border-top: 1px solid #00000088;
+border-top: 5px solid #00000088;
 text-align: center; 
 }
 
@@ -49,12 +49,12 @@ nav a{ color: rgb(150, 180, 160)
     }
 
     img {
-    width: 25px;
+    width: px;
     height: auto;
-    border: 1px solidblack
-    padding 1px
-    box-shadow 0 0 1px gray
+    border: 20px solidblack
+    padding 30px
+    box-shadow 0 0 10 px gray
 }
 
-p {padding: 1px;
+p {padding: 10px;
 }
