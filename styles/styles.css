@@ -5,7 +5,7 @@ main {
 aside {
     width: 10em;
     margin: 1rem;
-    border: 1px solid whitesmoke rgba(0, 0, 0, 0.42); */  /
+    border: 1px solid rgba(0, 0, 0, 0.42);
     padding: 1rem;
     background-color: #eee ;
     color: #333;
@@ -13,7 +13,7 @@ aside {
 }
    
 aside img {
-    width: 200px
+    width: 200px;
     height: auto;
 }
 
@@ -22,7 +22,7 @@ aside img {
 main img {
 width: 150px;
 height: auto;
-...
+
 
 }
 
@@ -39,23 +39,21 @@ nav {
 padding: 10px;
 }
 
-nav a{ color: rgb(255, 255, 255)
-    dislay: block;
-    padding: 20pix; } 
+nav a{ color: rgb(255, 180, 255)
+    display block;
+     } 
 
     h1{
         color: rgb(207, 205, 179);
     }
 
     img {
-    width: 150 px: ;
+    width: 50 px;
     height: auto;
     border: 5px solidblack
-    padding: 10px
-    box-shadow: 0 0 30px gray
+    padding 10px
+    box-shadow 0 0 20px gray
 }
 
-p {padding 10px
+p {padding 5px
 }
-
-/ a photoe is to be here /
