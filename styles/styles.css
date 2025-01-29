@@ -4,9 +4,9 @@ main {
 
 aside {
     width: 100%;
-    margin: .01rem;
-    border: .1rem solid rgba(0, 0, 0, 0.42);
-    padding: .01rem;
+    margin: .0001rem;
+    border: .0001rem solid rgba(0, 0, 0, 0.42);
+    padding: .0001rem;
     background-color: #eee ;
     color: #333;
     text-align: center;
@@ -20,18 +20,18 @@ aside img {
 
 
 main img {
-width: 150px;
+width: 147px;
 height: auto;
 float: left;
 clip-path: circle(40%);
 shape-outside: circle(45%);
 }
 
-p {padding: 2;}
+p {padding: 1;}
 
 footer {
 margin-top: 1px;
-border-top: 5px solid #00000088;
+border-top: 1px solid #00000088;
 text-align: center; 
 }
 
@@ -51,10 +51,10 @@ nav a{ color: rgb(150, 180, 160)
     img {
     width: px;
     height: auto;
-    border: 20px solidblack
-    padding 30px
+    border: 1px solidblack
+    padding 1px
     box-shadow 0 0 10 px gray
 }
 
-p {padding: 10px;
+p {padding: 1px;
 }
