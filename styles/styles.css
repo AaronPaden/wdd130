@@ -5,7 +5,7 @@ main {
 aside {
     width: 75em;
     margin: 1rem;
-    border: 1cqmin solid rgba(0, 0, 0, 0.42);
+    border: 1rem solid rgba(0, 0, 0, 0.42);
     padding: 1rem;
     background-color: #eee ;
     color: #333;
@@ -56,5 +56,5 @@ nav a{ color: rgb(150, 180, 160)
     box-shadow 0 0 1px gray
 }
 
-p {padding: 0px;
+p {padding: 1px;
 }
