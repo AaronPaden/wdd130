@@ -27,7 +27,7 @@ clip-path: circle(40%);
 shape-outside: circle(45%);
 }
 
-p {padding: 1;}
+p {padding: 0;}
 
 footer {
 margin-top: 1px;
