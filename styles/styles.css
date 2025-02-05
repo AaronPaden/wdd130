@@ -17,10 +17,28 @@ aside img {
     height: auto;
 }
 
-main img {
-    width: 150px;
+.hero img {
+    width: 100%;
     height: auto;
-    
+    display: block;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+img {
+    float: center;  /* Floats image to the left */
+    margin-right: 15px;  /* Adds space around the image */
+}
+
+main img {
+    width: 149px;
+    height: auto;
+    float: right;
+    clip-path: circle(40% at center);
+    shape-outside: circle(45% at center);
 }
 
 p {
@@ -53,4 +71,17 @@ img {
     border: 1px solid black;
     padding: 0px;
     box-shadow: 0 0 10px gray;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px; /* Space between images */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; /* Optional: adds rounded corners */
 }
