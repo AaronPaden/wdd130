@@ -34,7 +34,7 @@ img {
 }
 
 main img {
-    width: 149px;
+    width: 149.9px;
     height: auto;
     float: right;
     clip-path: circle(40% at center);
