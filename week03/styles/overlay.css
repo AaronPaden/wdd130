@@ -1,0 +1,82 @@
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 100%;
+    margin: 0;
+    border: 0.1rem solid rgba(0, 0, 0, 0.42);
+    padding: 0;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 149.9px;
+    height: auto;
+    float: right;
+    clip-path: circle(40% at center);
+    shape-outside: circle(45% at center);
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 1px;
+    border-top: 1px solid #00000088;
+    text-align: center;
+}
+
+nav { 
+    background-color: rgb(139, 107, 0);
+    padding: 25px;
+}
+
+nav a { 
+    color: rgb(150, 180, 160);
+    display: block;
+} 
+
+h1 {
+    color: rgb(207, 205, 179);
+}
+
+img {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    padding: 0px;
+    box-shadow: 0 0 10px gray;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px; /* Space between images */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
