@@ -5,7 +5,7 @@ main {
 aside {
     width: 200%;
     margin: 0;
-    border: 0.1rem solid rgba(0, 0, 0, 0.42);
+    border: 0rem solid rgba(0, 0, 0, 0.42);
     padding: 0;
     background-color: #eee;
     color: #333;
@@ -18,7 +18,7 @@ aside img {
 }
 
 .hero img {
-    width: 150%;
+    width: 200%;
     height: auto;
     display: block;
 }
@@ -37,7 +37,7 @@ main img {
 }
 
 p {
-    padding: 10;
+    padding: 1;
 }
 
 footer {
@@ -48,7 +48,7 @@ footer {
 
 nav { 
     background-color: rgb(0, 139, 53);
-    padding: 40px;
+    padding: 1px;
 }
 
 nav a { 
@@ -71,7 +71,7 @@ img {
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 150px; /* Space between images */
+    gap: 1px; /* Space between images */
 }
 
 .gallery img {
