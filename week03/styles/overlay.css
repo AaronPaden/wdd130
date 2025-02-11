@@ -3,9 +3,9 @@ main {
 }
 
 aside {
-    width: 200%;
+    width: 100%;
     margin: 0;
-    border: 0rem solid rgba(0, 0, 0, 0.42);
+    border: 0.1rem solid rgba(0, 0, 0, 0.42);
     padding: 0;
     background-color: #eee;
     color: #333;
@@ -13,12 +13,12 @@ aside {
 }
 
 aside img {
-    width: 10px;
+    width: 200px;
     height: auto;
 }
 
 .hero img {
-    width: 200%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -29,7 +29,7 @@ aside img {
 }
 
 main img {
-    width: 200px;
+    width: 149.9px;
     height: auto;
     float: right;
     clip-path: circle(40% at center);
@@ -37,18 +37,18 @@ main img {
 }
 
 p {
-    padding: 10;
+    padding: 0;
 }
 
 footer {
-    margin-top: 10px;
-    border-top: 10px solid #00000088;
+    margin-top: 1px;
+    border-top: 1px solid #00000088;
     text-align: center;
 }
 
 nav { 
-    background-color: rgb(0, 139, 53);
-    padding: 10px;
+    background-color: rgb(139, 107, 0);
+    padding: 25px;
 }
 
 nav a { 
@@ -63,8 +63,8 @@ h1 {
 img {
     width: auto;
     height: auto;
-    border: 10px solid black;
-    padding: 10px;
+    border: 1px solid black;
+    padding: 0px;
     box-shadow: 0 0 10px gray;
 }
 
@@ -75,8 +75,8 @@ img {
 }
 
 .gallery img {
-    width: 200%;
+    width: 100%;
     height: auto;
     object-fit: cover;
-    border-radius: 200px; /* Optional: adds rounded corners */
+    border-radius: 10px; /* Optional: adds rounded corners */
 }
