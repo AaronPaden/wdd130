@@ -3,7 +3,7 @@ main {
 }
 
 aside {
-    width: 30%;
+    width: 100%;
     margin: 0;
     border: 0.1rem solid rgba(0, 0, 0, 0.42);
     padding: 0;
@@ -18,7 +18,7 @@ aside img {
 }
 
 .hero img {
-    width: 35%;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -51,23 +51,23 @@ footer {
 }
 
 nav { 
-    background-color: rgba(0, 63, 139, 0.584);
-    padding: 27.5px;
+    background-color: rgba(95, 67, 31, 0.584);
+    padding: 20px;
 }
 
 nav a { 
-    color: rgb(150, 180, 153);
+    color: rgb(72, 73, 156);
     display: block;
 } 
 
 h1 {
-    color: rgba(207, 202, 179, 0.708);
+    color: rgba(2, 87, 7, 0.751);
 }
 
 img {
     width: auto;
     height: auto;
-    border: 1px solid black;
+    border: 0px solid black;
     padding: 0px;
     box-shadow: 0 0 5px gray;
 }
@@ -79,7 +79,7 @@ img {
 }
 
 .gallery img {
-    width: 200%;
+    width: 100%;
     height: auto;
     object-fit: cover;
     border-radius: 1px; /* Optional: adds rounded corners */
