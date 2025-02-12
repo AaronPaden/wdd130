@@ -28,10 +28,7 @@ aside img {
     height: auto;
 }
 
-img {
-    float: center;  /* Floats image to the left */
-    margin-right: 15px;  /* Adds space around the image */
-}
+
 
 main img {
     width: 149.9px;
