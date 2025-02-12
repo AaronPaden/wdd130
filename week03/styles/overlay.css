@@ -3,7 +3,7 @@ main {
 }
 
 aside {
-    width: 26%;
+    width: 26.5%;
     margin: 0;
     border: 0.1rem solid rgba(0, 0, 0, 0.42);
     padding: 0;
@@ -18,7 +18,7 @@ aside img {
 }
 
 .hero img {
-    width: 27%;
+    width: 26.5%;
     height: auto;
     display: block;
 }
