@@ -26,14 +26,14 @@ aside img {
 
 
 aside img {
-    width: 19px;
+    width: 26px;
     height: auto;
 }
 
 
 
 main img {
-    width: 50px;
+    width: 54px;
     height: auto;
     float: right;
     clip-path: circle(40% at center);
