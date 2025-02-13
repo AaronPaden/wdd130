@@ -12,6 +12,15 @@ aside {
     text-align: center;
 }
 
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+
+
 aside img {
     width: 200px;
     height: auto;
@@ -23,9 +32,13 @@ aside img {
     display: block;
 }
 
+.lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
 
-
-aside img {
+  aside img {
     width: 150px;
     height: auto;
 }
