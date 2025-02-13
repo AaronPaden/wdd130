@@ -35,8 +35,8 @@ main img {
     width: 150px;
     height: auto;
     float: left;
-    clip-path: circle(63.33% at center);
-    shape-outside: circle(63.33% at center);
+    clip-path: circle(63.99% at center);
+    shape-outside: circle(63.99% at center);
 }
 
 
@@ -45,8 +45,8 @@ p {
 }
 
 footer {
-    margin-top: 1px;
-    border-top: .01px solid #00000088;
+    margin-top: 0px;
+    border-top: 0px solid #00000088;
     text-align: center;
 }
 
@@ -67,15 +67,15 @@ h1 {
 img {
     width: auto;
     height: auto;
-    border: 1px solid black;
-    padding: 1px;
+    border: 0px solid black;
+    padding: 0px;
     box-shadow: 0 0 5px gray;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1px; /* Space between images */
+    gap: 2px; /* Space between images */
 }
 
 .gallery img {
