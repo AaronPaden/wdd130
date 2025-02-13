@@ -35,8 +35,8 @@ main img {
     width: 150px;
     height: auto;
     float: left;
-    clip-path: circle(66.666% at center);
-    shape-outside: circle(66.666% at center);
+    clip-path: circle(64.% at center);
+    shape-outside: circle(64.% at center);
 }
 
 
@@ -52,7 +52,7 @@ footer {
 
 nav { 
     background-color: rgba(95, 67, 31, 0.584);
-    padding: 40px;
+    padding: 50px;
 }
 
 nav a { 
