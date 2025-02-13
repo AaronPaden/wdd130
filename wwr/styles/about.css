@@ -31,14 +31,14 @@ aside img {
 }
 
 
-
 main img {
     width: 150px;
     height: auto;
-    float: right;
-    clip-path: circle(40% at center);
-    shape-outside: circle(45% at center);
+    float: center;
+    clip-path: circle(70% at center);
+    shape-outside: circle(70% at center);
 }
+
 
 p {
     padding: 0;
@@ -52,7 +52,7 @@ footer {
 
 nav { 
     background-color: rgba(95, 67, 31, 0.584);
-    padding: 20px;
+    padding: 15px;
 }
 
 nav a { 
