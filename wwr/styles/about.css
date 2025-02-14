@@ -48,8 +48,8 @@ main img {
     width: 150px;
     height: auto;
     float: left;
-    clip-path: circle(63.99% at center);
-    shape-outside: circle(63.99% at center);
+    clip-path: circle(64% at center);
+    shape-outside: circle(64% at center);
 }
 
 
