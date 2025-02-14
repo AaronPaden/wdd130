@@ -38,9 +38,6 @@ aside img {
 main img {
     width: 120px;
     height: auto;
-    float: center;
-    clip-path: circle(66.6% at center);
-    shape-outside: (66.6% at center);
 }
 
 
