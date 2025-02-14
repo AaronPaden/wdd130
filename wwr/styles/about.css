@@ -18,9 +18,10 @@ aside img {
 }
 
 .hero img {
-    width: 100%;
+    width: 99.5%;
     height: auto;
     display: block;
+    float: center
 }
 
 .lato-light {
