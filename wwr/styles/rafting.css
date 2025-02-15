@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 100%;
+    margin: 0;
+    border: 0.001rem solid rgba(0, 0, 0, 0.42);
+    padding: 0;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+.hero img {
+    width: 99.5%;
+    height: auto;
+    display: block;
+}
+
+.lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  aside img {
+    width: 120px;
+    height: auto;
+}
+
+
+main img {
+    width: 120px;
+    height: auto;
+}
+
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 0px;
+    border-top: 0px solid #00000088;
+    text-align: center;
+}
+
+nav { 
+    background-color: rgba(95, 67, 31, 0.584);
+    padding: 1px;
+}
+
+nav a { 
+    color: rgb(11, 25, 179);
+    display: block;
+} 
+
+h1 {
+    color: rgba(2, 87, 7, 0.751);
+}
+
+img {
+    width: auto;
+    height: auto;
+    border: 0px solid black;
+    padding: 0px;
+    box-shadow: 0 0 5px gray;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1px; /* Space between images */
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 2px; /* Optional: adds rounded corners */
+}
