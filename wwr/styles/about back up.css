@@ -16,6 +16,19 @@ aside {
 }
 
 
+<!-- Just an image -->
+<figure>
+  <img src="favicon-192x192.png" alt="The beautiful MDN logo." />
+</figure>
+
+<!-- Image with a caption -->
+<figure>
+  <img src="favicon-192x192.png" alt="The beautiful MDN logo." />
+  <figcaption>MDN Logo</figcaption>
+</figure>
+
+
+
 
 
 
